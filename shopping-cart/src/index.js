@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+//Babel will compile this to React.createElement
+//that's why we have imported React on the top
+//even though it's directly not used in the code
+const element = <h1>Hello World</h1>;
+console.log(element);
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+//projects created with create-react-app
+//when even changes are saves, application is automatically restarted
+//no need to refresh the browser, hot module reloading 
