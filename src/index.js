@@ -9,4 +9,4 @@ console.log(element);
 
 //projects created with create-react-app
 //when even changes are saves, application is automatically restarted
-//no need to refresh the browser, hot module reloading 
+//no need to refresh the browser, hot module reloading
